@@ -179,6 +179,7 @@ export default {
 <style scoped>
 .modal-body {
 	max-height: 570px;
+	overflow-y: auto;
 }
 .bg-gray-800-opacity {
 	background-color: #2d374850;
