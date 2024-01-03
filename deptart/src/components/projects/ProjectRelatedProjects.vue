@@ -30,5 +30,3 @@ export default {
 		</div>
 	</div>
 </template>
-<router-link
-		:to="{ name: 'SingleProject', params: { projectId: project.id } }"
