@@ -1,6 +1,11 @@
 <script>
 export default {
 	props: ['relatedProject'],
+	methods: {
+		reloadPage() { setTimeout(() => {
+      location.reload();
+	}, 200); }
+	}
 };
 </script>
 
@@ -16,12 +21,14 @@ export default {
 
 		<div class="grid grid-cols-1 sm:grid-cols-4 gap-10">
 			<div v-for="item in relatedProject.relatedProjects" :key="item.id">
-				<p><a :href="item.href"><img
-					:src="item.img"
-					class="rounded-xl cursor-pointer"
-					:alt="item.title"
-				/></a></p>
+				<p>
+					<router-link :to="{ name: 'SingleProject', params: { projectId: item.href } }" @click="reloadPage">
+						<img :src="item.img" class="rounded-xl cursor-pointer" :alt="item.title" />
+					</router-link>
+				</p>
 			</div>
 		</div>
 	</div>
 </template>
+<router-link
+		:to="{ name: 'SingleProject', params: { projectId: project.id } }"

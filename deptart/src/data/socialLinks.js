@@ -4,7 +4,7 @@ export const socialLinks = [
 		id: 1,
 		name: 'YouTube',
 		icon: 'youtube',
-		url: 'https://www.youtube.com/@dominik_depta',
+		url: 'https://www.youtube.com/@deptart_pl',
 	},
 	{
 		id: 2,
