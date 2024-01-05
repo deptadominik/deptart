@@ -241,7 +241,7 @@ const projects = [
 					url: 'https://www.youtube.com/channel/UC93wqgg8Yr3cdtKlKaO27kQ',
 				},
 			],
-			projectUrl: 'https://youtu.be/5bZWvTKuEr8?si=qI5h8xyAmVDwB4R8'
+			projectUrl: 'https://www.youtube.com/embed/5bZWvTKuEr8?si=FGikGcxXIXh6m3e3'
 		}
 	},
 	{
