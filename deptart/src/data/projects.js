@@ -6,7 +6,7 @@ const projects = [
 		id: 1,
 		title: 'Księżycowa Metropolia',
 		category: 'Teledyski',
-		img: require('@/assets/images/Ksiezycowa_3.jpg'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Ksiezycowa_3.jpg',
 		singleProjectHeader: {
 			singleProjectTitle: 'Księżycowa Metropolia',
 			singleProjectDate: '1 stycznia 2024',
@@ -16,17 +16,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Księżycowa Metropolia',
-				img: require('@/assets/images/Ksiezycowa_1.png'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Ksiezycowa_1.png',
 			},
 			{
 				id: 2,
 				title: 'Księżycowa Metropolia',
-				img: require('@/assets/images/KsiezycowaMetropolia.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/KsiezycowaMetropolia.jpg',
 			},
 			{
 				id: 3,
 				title: 'Księżycowa Metropolia',
-				img: require('@/assets/images/Ksiezycowa_3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Ksiezycowa_3.jpg',
 			},
 		],
 		projectInfo: {
@@ -84,7 +84,7 @@ const projects = [
 				{
 					id: 1,
 					title: 'Grudniowy',
-					img: require('@/assets/images/Grudniowy_2.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Grudniowy_2.jpg',
 					href: '2'
 				},
 			],
@@ -94,7 +94,7 @@ const projects = [
 		id: 2,
 		title: 'Grudniowy',
 		category: 'Teledyski',
-		img: require('@/assets/images/Grudniowy_2.jpg'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Grudniowy_2.jpg',
 		singleProjectHeader: {
 			singleProjectTitle: 'Grudniowy',
 			singleProjectDate: '1 stycznia 2024',
@@ -104,17 +104,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Grudniowy',
-				img: require('@/assets/images/Grudniowy_2.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Grudniowy_2.jpg',
 			},
 			{
 				id: 2,
 				title: 'Grudniowy',
-				img: require('@/assets/images/Grudniowy_3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Grudniowy_3.jpg',
 			},
 			{
 				id: 3,
 				title: 'Grudniowy',
-				img: require('@/assets/images/Grudniowy_1.png'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Grudniowy_1.png',
 			}
 		],
 		projectInfo: {
@@ -171,7 +171,7 @@ const projects = [
 				{
 					id: 1,
 					title: 'Księżycowa Metropolia',
-					img: require('@/assets/images/Ksiezycowa_3.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Ksiezycowa_3.jpg',
 					href: '1'
 				},
 			],
@@ -181,7 +181,7 @@ const projects = [
 		id: 3,
 		title: 'Sesja portretowa i lookbook',
 		category: 'Sesje plenerowe',
-		img: require('@/assets/images/Plener_1.png'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Plener_1.png',
 		singleProjectHeader: {
 			singleProjectTitle: 'Sesja portretowa i lookbook w plenerze',
 			singleProjectDate: '1 stycznia 2024',
@@ -191,17 +191,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Sesja - plener',
-				img: require('@/assets/images/Plener_3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Plener_3.jpg',
 			},
 			{
 				id: 2,
 				title: 'Sesja - plener',
-				img: require('@/assets/images/Plener_1.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Plener_1.jpg',
 			},
 			{
 				id: 3,
 				title: 'Sesja - plener',
-				img: require('@/assets/images/Plener_6.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Plener_6.jpg',
 			},
 		],
 		projectInfo: {
@@ -248,7 +248,7 @@ const projects = [
 		id: 4,
 		title: 'Działka inwestycyjna w Rybniku',
 		category: 'Nieruchomości',
-		img: require('@/assets/images/Rybnik_dzialka1.jpg'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka1.jpg',
 		singleProjectHeader: {
 			singleProjectTitle: 'Działka w Rybniku - Północ Nieruchomości',
 			singleProjectDate: '1 stycznia 2024',
@@ -258,17 +258,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Działka - Rybnik',
-				img: require('@/assets/images/Rybnik_dzialka1.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka1.jpg',
 			},
 			{
 				id: 2,
 				title: 'Działka - Rybnik',
-				img: require('@/assets/images/Rybnik_dzialka2.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka2.jpg',
 			},
 			{
 				id: 3,
 				title: 'Działka - Rybnik',
-				img: require('@/assets/images/Rybnik_dzialka3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka3.jpg',
 			},
 		],
 		projectInfo: {
@@ -325,13 +325,13 @@ const projects = [
 				{
 					id: 1,
 					title: 'Działka na sprzedaż',
-					img: require('@/assets/images/Zory_dzialka1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka1.jpg',
 					href: '5'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
-					img: require('@/assets/images/Jastrzebie_dzialka1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka1.jpg',
 					href: '6'
 				},
 			],
@@ -341,7 +341,7 @@ const projects = [
 		id: 5,
 		title: 'Działka budowlana w Żorach',
 		category: 'Nieruchomości',
-		img: require('@/assets/images/Zory_dzialka1.jpg'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka1.jpg',
 		singleProjectHeader: {
 			singleProjectTitle: 'Działka w Żorach - Północ Nieruchomości',
 			singleProjectDate: '1 stycznia 2024',
@@ -351,17 +351,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Działka - Żory',
-				img: require('@/assets/images/Zory_dzialka2.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka2.jpg',
 			},
 			{
 				id: 2,
 				title: 'Działka - Żory',
-				img: require('@/assets/images/Zory_dzialka1.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka1.jpg',
 			},
 			{
 				id: 3,
 				title: 'Działka - Żory',
-				img: require('@/assets/images/Zory_dzialka3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka3.jpg',
 			},
 		],
 		projectInfo: {
@@ -418,13 +418,13 @@ const projects = [
 				{
 					id: 1,
 					title: 'Działka na sprzedaż',
-					img: require('@/assets/images/Rybnik_dzialka1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka1.jpg',
 					href: '4'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
-					img: require('@/assets/images/Jastrzebie_dzialka1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka1.jpg',
 					href: '6'
 				},
 			],
@@ -434,7 +434,7 @@ const projects = [
 		id: 6,
 		title: 'Działka budowlana w Jastrzębiu',
 		category: 'Nieruchomości',
-		img: require('@/assets/images/Jastrzebie_dzialka1.jpg'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka1.jpg',
 		singleProjectHeader: {
 			singleProjectTitle: 'Działka w Jastrzębiu-Zdroju - Północ Nieruchomości',
 			singleProjectDate: '1 stycznia 2024',
@@ -444,17 +444,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Działka - Jastrzębie-Zdrój',
-				img: require('@/assets/images/Jastrzebie_dzialka1.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka1.jpg',
 			},
 			{
 				id: 2,
 				title: 'Działka - Jastrzębie-Zdrój',
-				img: require('@/assets/images/Jastrzebie_dzialka2.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka2.jpg',
 			},
 			{
 				id: 3,
 				title: 'Działka - Jastrzębie-Zdrój',
-				img: require('@/assets/images/Jastrzebie_dzialka3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka3.jpg',
 			},
 		],
 		projectInfo: {
@@ -511,13 +511,13 @@ const projects = [
 				{
 					id: 1,
 					title: 'Działka na sprzedaż',
-					img: require('@/assets/images/Rybnik_dzialka1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka1.jpg',
 					href: '4'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
-					img: require('@/assets/images/Zory_dzialka1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka1.jpg',
 					href: '5'
 				},
 			],
@@ -527,7 +527,7 @@ const projects = [
 		id: 7,
 		title: `Cross'em przez pustynię`,
 		category: 'Filmy promocyjne',
-		img: require('@/assets/images/Offroad_1.jpg'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_1.jpg',
 		singleProjectHeader: {
 			singleProjectTitle: `Off-road - cross'em przez pustynię`,
 			singleProjectDate: '1 stycznia 2024',
@@ -537,17 +537,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Cross',
-				img: require('@/assets/images/Offroad_1.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_1.jpg',
 			},
 			{
 				id: 2,
 				title: 'Cross',
-				img: require('@/assets/images/Offroad_2.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_2.jpg',
 			},
 			{
 				id: 3,
 				title: 'Cross',
-				img: require('@/assets/images/Offroad_3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_3.jpg'
 			},
 		],
 		projectInfo: {
@@ -595,13 +595,13 @@ const projects = [
 				{
 					id: 1,
 					title: 'Styria',
-					img: require('@/assets/images/Styria_3.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_3.jpg',
 					href: '8'
 				},
 				{
 					id: 1,
 					title: 'Nassfeld',
-					img: require('@/assets/images/Nassfeld_1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_1.jpg',
 					href: '9'
 				},
 			],
@@ -611,7 +611,7 @@ const projects = [
 		id: 8,
 		title: `Styria`,
 		category: 'Filmy promocyjne',
-		img: require('@/assets/images/Styria_3.jpg'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_3.jpg',
 		singleProjectHeader: {
 			singleProjectTitle: 'Styria - materiał promocyjny regionu',
 			singleProjectDate: '1 stycznia 2024',
@@ -621,17 +621,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Styria',
-				img: require('@/assets/images/Styria_1.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_1.jpg',
 			},
 			{
 				id: 2,
 				title: 'Styria',
-				img: require('@/assets/images/Styria_2.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_2.jpg',
 			},
 			{
 				id: 3,
 				title: 'Styria',
-				img: require('@/assets/images/Styria_3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_3.jpg',
 			},
 		],
 		projectInfo: {
@@ -679,13 +679,13 @@ const projects = [
 				{
 					id: 1,
 					title: 'Cross',
-					img: require('@/assets/images/Offroad_1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_1.jpg',
 					href: '7'
 				},
 				{
 					id: 1,
 					title: 'Nassfeld',
-					img: require('@/assets/images/Nassfeld_1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_1.jpg',
 					href: '9'
 				},
 			],
@@ -695,7 +695,7 @@ const projects = [
 		id: 9,
 		title: `Nassfeld`,
 		category: 'Filmy promocyjne',
-		img: require('@/assets/images/Nassfeld_3.jpg'),
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_3.jpg',
 		singleProjectHeader: {
 			singleProjectTitle: 'Nassfeld - film promocyjny kurortu narciarskiego',
 			singleProjectDate: '1 stycznia 2024',
@@ -705,17 +705,17 @@ const projects = [
 			{
 				id: 1,
 				title: 'Nassfeld',
-				img: require('@/assets/images/Nassfeld_3.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_3.jpg',
 			},
 			{
 				id: 2,
 				title: 'Nassfeld',
-				img: require('@/assets/images/Nassfeld_2.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_2.jpg',
 			},
 			{
 				id: 3,
 				title: 'Nassfeld',
-				img: require('@/assets/images/Nassfeld_1.jpg'),
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_1.jpg',
 			},
 		],
 		projectInfo: {
@@ -763,13 +763,13 @@ const projects = [
 				{
 					id: 1,
 					title: 'Cross',
-					img: require('@/assets/images/Offroad_1.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_1.jpg',
 					href: '7'
 				},
 				{
 					id: 1,
 					title: 'Styria',
-					img: require('@/assets/images/Styria_3.jpg'),
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_3.jpg',
 					href: '8'
 				},
 			],

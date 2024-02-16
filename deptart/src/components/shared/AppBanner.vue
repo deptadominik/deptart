@@ -71,7 +71,7 @@ export default {
 		<!-- Banner right illustration -->
 		<div class="w-4/5 md:w-2/5 text-right float-right">
 			<img
-				src="@/assets/images/profile.jpg"
+				src="https://harmonifystorage.blob.core.windows.net/deptart/profile.jpg"
 				alt="Profile"
 				class="rounded-3xl"
 			/>

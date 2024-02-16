@@ -87,13 +87,13 @@ export default {
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
-							src="@/assets/images/logo-light.png"
+							src="https://harmonifystorage.blob.core.windows.net/deptart/logo-light.png"
 							class="w-72"
 							alt="Dark Logo"
 						/>
 						<img
 							v-else
-							src="@/assets/images/logo-dark-col.png"
+							src="https://harmonifystorage.blob.core.windows.net/deptart/logo-dark-col.png"
 							class="w-72"
 							alt="Light Logo"
 						/>
@@ -146,7 +146,7 @@ export default {
 				<!-- Hire me button -->
 				<div class="hidden md:block">
 					<Button
-						title="Wyślij zapytanie"
+						title="Poproś o wycenę"
 						class="text-md font-general-medium bg-green-700 hover:bg-green-900 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 						@click="showModal()"
 						aria-label="Hire Me Button"
