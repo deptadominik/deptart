@@ -4,6 +4,100 @@
 const projects = [
 	{
 		id: 1,
+		title: `Współpraca z influencerami - Wietnam`,
+		category: 'Filmy promocyjne',
+		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Wietnam_main.jpg',
+		singleProjectHeader: {
+			singleProjectTitle: 'Wietnam - realizacja materiału z powietrza dla influencerów',
+			singleProjectDate: '1 maja 2024',
+			singleProjectTag: 'Filmy promocyjne',
+		},
+		projectImages: [
+			{
+				id: 1,
+				title: 'Vietnam',
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Wietnam_1.jpg',
+			},
+			{
+				id: 2,
+				title: 'Vietnam',
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Wietnam_main.jpg',
+			},
+			{
+				id: 3,
+				title: 'Vietnam',
+				img: 'https://harmonifystorage.blob.core.windows.net/deptart/Wietnam_2.jpg',
+			},
+		],
+		projectInfo: {
+			objectivesHeading: 'Cel',
+			objectivesDetails:
+				'Celem tego projektu było przygotowanie materiału z powietrza w Wietnamie w postaci krótkich ujęć, które Influencerzy wykorzystali w swoich filmach na platformie Youtube.',
+			projectDetailsHeading: 'Szczegóły',
+			projectDetails: [
+				{
+					id: 1,
+					details:
+						'Projekt stanowił fascynującą przygodę, której celem było udokumentowanie niezwykłych aktywności, jakie Przemek Pro i Jawor – popularni youtuberzy – zorganizowali dla swoich widzów podczas wyprawy do Wietnamu. W ramach tego projektu, udało nam się uchwycić unikalne chwile, pełne emocji i adrenaliny, które na długo pozostaną w pamięci zarówno uczestników, jak i widzów śledzących relację z podróży.',
+				},
+				{
+					id: 2,
+					details:
+						'Jednym z kluczowych momentów wyprawy była noc spędzona na tradycyjnym wietnamskim statku w malowniczej Zatoce Ha Long. Ujęcia z tej części projektu oddają niezwykły klimat, który tworzyły otaczające ekipy majestatyczne wapienne wyspy i spokojne wody zatoki, tworząc niezapomniane tło dla tej przygody.',
+				},
+				{
+					id: 3,
+					details:
+						'Kolejnym ważnym elementem wyprawy były pola ryżowe, na których uczestnicy zmierzyli się z różnymi wyzwaniami. Rywalizacje w sercu wietnamskiej wsi, w otoczeniu bujnej przyrody i tradycyjnych upraw, dostarczyły wielu emocjonujących chwil, które udało nam się uchwycić na filmie.',
+				},
+				{
+					id: 4,
+					details:
+						'Nie zabrakło także ekstremalnych wrażeń podczas spływu kajakowego w zachwycającej zatoce Ninh Binh. Otoczone przez strome skały i bujną zieleń, wody tej zatoki stały się areną dla kolejnych niezapomnianych zmagań uczestników, które również zostały skrupulatnie zarejestrowane w ramach naszego projektu.',
+				},
+				{
+					id: 5,
+					details:
+						'Naszym celem było nie tylko uchwycenie piękna Wietnamu, ale również oddanie dynamiki i ducha rywalizacji, które towarzyszyły uczestnikom na każdym kroku tej niezwykłej wyprawy. Projekt ten stanowi kompletną dokumentację pełną inspiracji, przygód i wyjątkowych chwil, które przyciągną widzów do ekranu.',
+				},
+			],
+			socialSharingsHeading: 'Podziel się tym projektem',
+			socialSharings: [
+				{
+					id: 1,
+					name: 'Instagram',
+					icon: 'instagram',
+					url: 'https://instagram.com/deptart.pl',
+				},
+				{
+					id: 2,
+					name: 'Youtube',
+					icon: 'youtube',
+					url: 'https://youtu.be/1d8fdNefFSc',
+				},
+			],
+			projectUrl: 'https://www.youtube.com/embed/1d8fdNefFSc'
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Inne projekty z tej kategorii',
+			relatedProjects: [
+				{
+					id: 1,
+					title: 'Cross',
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_1.jpg',
+					href: '8'
+				},
+				{
+					id: 1,
+					title: 'Nassfeld',
+					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_1.jpg',
+					href: '10'
+				},
+			],
+		},
+	},
+	{
+		id: 2,
 		title: 'Księżycowa Metropolia',
 		category: 'Teledyski',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Ksiezycowa_3.jpg',
@@ -85,13 +179,13 @@ const projects = [
 					id: 1,
 					title: 'Grudniowy',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Grudniowy_2.jpg',
-					href: '2'
+					href: '3'
 				},
 			],
 		},
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'Grudniowy',
 		category: 'Teledyski',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Grudniowy_2.jpg',
@@ -172,13 +266,13 @@ const projects = [
 					id: 1,
 					title: 'Księżycowa Metropolia',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Ksiezycowa_3.jpg',
-					href: '1'
+					href: '2'
 				},
 			],
 		}
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Sesja portretowa i lookbook',
 		category: 'Sesje plenerowe',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Plener_1.png',
@@ -245,7 +339,7 @@ const projects = [
 		}
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Działka inwestycyjna w Rybniku',
 		category: 'Nieruchomości',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka1.jpg',
@@ -326,19 +420,19 @@ const projects = [
 					id: 1,
 					title: 'Działka na sprzedaż',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka1.jpg',
-					href: '5'
+					href: '6'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka1.jpg',
-					href: '6'
+					href: '7'
 				},
 			],
 		}
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Działka budowlana w Żorach',
 		category: 'Nieruchomości',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka1.jpg',
@@ -419,19 +513,19 @@ const projects = [
 					id: 1,
 					title: 'Działka na sprzedaż',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka1.jpg',
-					href: '4'
+					href: '5'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka1.jpg',
-					href: '6'
+					href: '7'
 				},
 			],
 		}
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Działka budowlana w Jastrzębiu',
 		category: 'Nieruchomości',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Jastrzebie_dzialka1.jpg',
@@ -512,19 +606,19 @@ const projects = [
 					id: 1,
 					title: 'Działka na sprzedaż',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Rybnik_dzialka1.jpg',
-					href: '4'
+					href: '5'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Zory_dzialka1.jpg',
-					href: '5'
+					href: '6'
 				},
 			],
 		}
 	},
 	{
-		id: 7,
+		id: 8,
 		title: `Cross'em przez pustynię`,
 		category: 'Filmy promocyjne',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_1.jpg',
@@ -596,19 +690,19 @@ const projects = [
 					id: 1,
 					title: 'Styria',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_3.jpg',
-					href: '8'
+					href: '9'
 				},
 				{
 					id: 1,
 					title: 'Nassfeld',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_1.jpg',
-					href: '9'
+					href: '10'
 				},
 			],
 		},
 	},
 	{
-		id: 8,
+		id: 9,
 		title: `Styria`,
 		category: 'Filmy promocyjne',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_3.jpg',
@@ -680,19 +774,19 @@ const projects = [
 					id: 1,
 					title: 'Cross',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_1.jpg',
-					href: '7'
+					href: '8'
 				},
 				{
 					id: 1,
 					title: 'Nassfeld',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_1.jpg',
-					href: '9'
+					href: '10'
 				},
 			],
 		},
 	},
 	{
-		id: 9,
+		id: 10,
 		title: `Nassfeld`,
 		category: 'Filmy promocyjne',
 		img: 'https://harmonifystorage.blob.core.windows.net/deptart/Nassfeld_3.jpg',
@@ -764,13 +858,13 @@ const projects = [
 					id: 1,
 					title: 'Cross',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Offroad_1.jpg',
-					href: '7'
+					href: '8'
 				},
 				{
 					id: 1,
 					title: 'Styria',
 					img: 'https://harmonifystorage.blob.core.windows.net/deptart/Styria_3.jpg',
-					href: '8'
+					href: '9'
 				},
 			],
 		},

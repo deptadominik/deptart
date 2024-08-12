@@ -7,7 +7,7 @@ export default {
 <template>
 	<router-link
 		:to="{ name: 'SingleProject', params: { projectId: project.id } }"
-		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
+		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-6 bg-secondary-light dark:bg-ternary-dark h-full flex flex-col"
 		aria-label="Single Project"
 	>
 		<div>
@@ -17,7 +17,7 @@ export default {
 				class="rounded-t-xl border-none"
 			/>
 		</div>
-		<div class="text-center px-4 py-6">
+		<div class="text-center px-4 py-6 flex flex-col justify-center h-full">
 			<p
 				class="font-general-semibold text-xl text-ternary-dark dark:text-ternary-light font-semibold mb-2"
 			>
