@@ -2,7 +2,7 @@
 export default {
 	data: () => {
 		return {
-			copyrightDate: '2024',
+			copyrightDate: '2025',
 			author: 'DeptArt',
 		};
 	},

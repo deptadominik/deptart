@@ -40,7 +40,7 @@ export default {
 	<div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
 		<div class="flex justify-center w-full sm:w-2/4 mb-7 sm:mb-0">
 			<img
-				src="https://harmonifystorage.blob.core.windows.net/deptart/profile2.jpg"
+				src="https://ik.imagekit.io/deptart/profile2.jpg"
 				class="rounded-xl w-96 object-fill"
 				alt=""
 			/>
@@ -73,7 +73,7 @@ export default {
 		</div>
 		<div class="flex mt-12 w-full items-center justify-center">
 			<img
-				src="https://harmonifystorage.blob.core.windows.net/deptart/gear_full.jpg"
+				src="https://ik.imagekit.io/deptart/gear_full.jpg"
 				class="rounded-xl w-1/2"
 				alt="Gear Full"
 			/>
@@ -94,7 +94,7 @@ export default {
 		<div class="block sm:flex sm:gap-10 mt-10 items-center">
 			<div class="flex justify-center w-full mb-7 sm:mb-0">
 			<img
-				src="https://harmonifystorage.blob.core.windows.net/deptart/gear_camera.jpg"
+				src="https://ik.imagekit.io/deptart/gear_camera.jpg"
 				class="rounded-xl object-scale-down"
 				alt="Gear Cam"
 			/>
@@ -116,7 +116,7 @@ export default {
 		<div class="block sm:flex sm:gap-10 mt-10 items-center">
 			<div class="flex justify-center w-full mb-7 sm:mb-0">
 				<img
-				src="https://harmonifystorage.blob.core.windows.net/deptart/gear_gimbal.jpg"
+				src="https://ik.imagekit.io/deptart/gear_gimbal.jpg"
 				class="rounded-xl object-scale-down"
 				alt="Gear Gimbal"
 				/>
@@ -137,7 +137,7 @@ export default {
 		<div class="block sm:flex sm:gap-10 mt-10 items-center">
 			<div class="flex justify-center w-full mb-7 sm:mb-0">
 				<img
-				src="https://harmonifystorage.blob.core.windows.net/deptart/gear_drone.jpg"
+				src="https://ik.imagekit.io/deptart/gear_drone.jpg"
 				class="rounded-xl object-scale-down"
 				alt="Gear Drone"
 				/>
@@ -159,7 +159,7 @@ export default {
 		<div class="block sm:flex sm:gap-10 mt-10 items-center">
 			<div class="flex justify-center w-full mb-7 sm:mb-0">
 				<img
-				src="https://harmonifystorage.blob.core.windows.net/deptart/gear_sportcam.jpg"
+				src="https://ik.imagekit.io/deptart/gear_sportcam.jpg"
 				class="rounded-xl object-scale-down"
 				alt="Gear Sportcam"
 				/>

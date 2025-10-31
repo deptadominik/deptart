@@ -87,13 +87,13 @@ export default {
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
-							src="https://harmonifystorage.blob.core.windows.net/deptart/logo-light.png"
+							src="https://ik.imagekit.io/deptart/logo-light.png"
 							class="w-72"
 							alt="Dark Logo"
 						/>
 						<img
 							v-else
-							src="https://harmonifystorage.blob.core.windows.net/deptart/logo-dark-col.png"
+							src="https://ik.imagekit.io/deptart/logo-dark-col.png"
 							class="w-72"
 							alt="Light Logo"
 						/>
