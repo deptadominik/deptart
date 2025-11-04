@@ -1,9 +1,3 @@
-<script>
-export default {
-	props: ['projectImages'],
-};
-</script>
-
 <template>
 	<div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
 		<div
@@ -13,9 +7,15 @@ export default {
 		>
 			<img
 				:src="projectImage.img"
-				class="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
-				alt="{{ projectImage.title }}"
+				class="w-full h-64 object-cover rounded-xl cursor-pointer shadow-lg sm:shadow-none"
+				:alt="projectImage.title"
 			/>
 		</div>
 	</div>
 </template>
+
+<script>
+export default {
+	props: ['projectImages'],
+};
+</script>

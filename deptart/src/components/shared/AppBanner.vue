@@ -57,7 +57,7 @@ export default {
 				>
 					<span
 						class="text-sm sm:text-lg font-general-medium duration-100"
-						>Moje projekty</span
+						>Moje realizacje</span
 					>
 					<i
 						data-feather="arrow-down-circle"

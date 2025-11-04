@@ -14,7 +14,7 @@ export default {
 			to="/projects"
 			class="font-general-medium block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-green-700 dark:hover:text-green-400  sm:mx-4 mb-2 mt-2 sm:py-2 "
 			aria-label="Projects"
-			>Projekty</router-link
+			>Portfolio</router-link
 		>
 		<router-link
 			to="/about"

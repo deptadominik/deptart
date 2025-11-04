@@ -4,6 +4,285 @@
 const projects = [
 	{
 		id: 1,
+		title: `Automotive - relacja z eventu motoryzacyjnego`,
+		category: 'Filmy promocyjne',
+		img: 'https://ik.imagekit.io/deptart/M_Town_1_main.jpg',
+		singleProjectHeader: {
+			singleProjectTitle: 'Automotive - relacja z eventu motoryzacyjnego',
+			singleProjectDate: '11 października 2025',
+			singleProjectTag: 'Filmy promocyjne',
+		},
+		projectImages: [
+			{
+				id: 1,
+				title: 'Słowa',
+				img: 'https://ik.imagekit.io/deptart/M_Town_1.jpg',
+			},
+			{
+				id: 2,
+				title: 'Słowa',
+				img: 'https://ik.imagekit.io/deptart/M_Town_3.jpg',
+			},
+			{
+				id: 3,
+				title: 'Słowa',
+				img: 'https://ik.imagekit.io/deptart/M_Town_2.jpg',
+			},
+		],
+		projectInfo: {
+			clientHeading: 'O kliencie',
+			companyName: `BMW M Town`,
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Instagram',
+					url: 'https://www.instagram.com/bmwmtownpl/',
+				}
+			],
+			objectivesHeading: 'Cel',
+			objectivesDetails:
+				'Celem tego projektu było przygotowanie relacji filmowej i fotograficznej z eventu motoryzacyjnego, obejmującej najważniejsze momenty trasy oraz atmosferę wydarzenia.',
+			projectDetailsHeading: 'Szczegóły',
+			projectDetails: [
+				{
+					id: 1,
+					details:
+						'Projekt stanowił dynamiczną realizację związaną z dokumentacją eventu motoryzacyjnego, podczas którego powstała seria filmów oraz pakiet zdjęć ukazujących energię, pasję i emocje towarzyszące uczestnikom trasy. Celem było uchwycenie kluczowych momentów wydarzenia - od startu, przez trasę pełną wrażeń, aż po finał spotkania miłośników motoryzacji. Zarówno z ziemi, jak i z powietrza.'
+				},
+				{
+					id: 2,
+					details:
+						'Podczas realizacji skupiono się na oddaniu ducha rywalizacji i atmosfery wspólnej przygody. Ujęcia z drogi, dynamiczne kadry oraz detale pojazdów pozwoliły stworzyć materiał, który oddaje nie tylko tempo i emocje wydarzenia, ale także autentyczną pasję uczestników.'
+				},
+				{
+					id: 3,
+					details:
+						'Efektem końcowym jest relacja, która łączy w sobie estetykę i energię motoryzacyjnego świata: obraz pełen mocy, ruchu i adrenaliny, przenoszący widza w sam środek wydarzeń.'
+				}
+			],
+			socialSharingsHeading: 'Podziel się tym projektem',
+			socialSharings: [
+				{
+					id: 1,
+					name: 'Instagram',
+					icon: 'instagram',
+					url: 'https://instagram.com/deptart.pl',
+				},
+				{
+					id: 2,
+					name: 'Youtube',
+					icon: 'youtube',
+					url: 'https://youtu.be/zLujTRtMvbQ',
+				},
+			],
+			projectUrl: 'https://www.youtube.com/embed/zLujTRtMvbQ'
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Inne projekty z tej kategorii',
+			relatedProjects: [
+				{
+					id: 1,
+					title: 'Paczka Smaku',
+					img: 'https://ik.imagekit.io/deptart/Paczka_Smaku_1.jpeg',
+					href: '3'
+				},
+				{
+					id: 1,
+					title: 'Nassfeld',
+					img: 'https://ik.imagekit.io/deptart/Nassfeld_1.jpg',
+					href: '13'
+				},
+			],
+		},
+	},
+	{
+		id: 2,
+		title: `Słowa`,
+		category: 'Teledyski',
+		img: 'https://ik.imagekit.io/deptart/Slowa_1_main.jpg',
+		singleProjectHeader: {
+			singleProjectTitle: 'Słowa - singiel zespołu Cynamoon',
+			singleProjectDate: '6 czerwca 2025',
+			singleProjectTag: 'Teledyski',
+		},
+		projectImages: [
+			{
+				id: 1,
+				title: 'Słowa',
+				img: 'https://ik.imagekit.io/deptart/Slowa_2.jpg',
+			},
+			{
+				id: 2,
+				title: 'Słowa',
+				img: 'https://ik.imagekit.io/deptart/Slowa_1.jpg',
+			},
+			{
+				id: 3,
+				title: 'Słowa',
+				img: 'https://ik.imagekit.io/deptart/Slowa_3.jpg',
+			},
+		],
+		projectInfo: {
+			clientHeading: 'O kliencie',
+			companyName: `Zespół Cynamoon`,
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Strona internetowa',
+					url: 'http://cynamoon.com.pl',
+				}
+			],
+			objectivesHeading: 'Cel',
+			objectivesDetails:
+				'Celem tego projektu było stworzenie teledysku - od opracowania koncepcji po finalną realizację, w sposób oddający emocje i przesłanie zawarte w muzyce.',
+			projectDetailsHeading: 'Szczegóły',
+			projectDetails: [
+				{
+					id: 1,
+					details:
+						'Projekt stanowił kompleksową realizację teledysku do utworu „Słowa” zespołu Cynamoon - drugiego singla formacji, będącego emocjonalną podróżą ku zapomnieniu. Od wczesnego etapu przygotowań, przez opracowanie scenariusza i reżyserię, aż po nagrania na planie, montaż, color grading i finalną publikację - każdy etap został zrealizowany z myślą o oddaniu nastroju i głębi emocjonalnej utworu.'
+				},
+				{
+					id: 2,
+					details:
+						'Koncepcja wizualna teledysku opiera się na subtelnej grze światła, symbolice gestów i przestrzeni, które wspólnie tworzą poetycką opowieść o zamykaniu rozdziałów, o utracie i uwolnieniu od tego, co już nie ma znaczenia. Ujęcia zostały zaplanowane tak, by w pełni współbrzmiały z melancholijnym klimatem muzyki, podkreślając jej delikatność i autentyczność przekazu.'
+				},
+				{
+					id: 3,
+					details:
+						'Efektem końcowym jest spójny, nastrojowy obraz, w którym obraz i dźwięk przenikają się, tworząc emocjonalną całość - wizualne dopełnienie utworu, który porusza i skłania do refleksji.'
+				}
+			],
+			socialSharingsHeading: 'Podziel się tym projektem',
+			socialSharings: [
+				{
+					id: 1,
+					name: 'Instagram',
+					icon: 'instagram',
+					url: 'https://instagram.com/deptart.pl',
+				},
+				{
+					id: 2,
+					name: 'Youtube',
+					icon: 'youtube',
+					url: 'https://youtu.be/s4OpI94WmQE',
+				},
+			],
+			projectUrl: 'https://www.youtube.com/embed/s4OpI94WmQE'
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Inne projekty z tej kategorii',
+			relatedProjects: [
+				{
+					id: 1,
+					title: 'Księżycowa Metropolia',
+					img: 'https://ik.imagekit.io/deptart/Ksiezycowa_3.jpg',
+					href: '5'
+				},
+				{
+					id: 2,
+					title: 'Grudniowy',
+					img: 'https://ik.imagekit.io/deptart/Grudniowy_2.jpg',
+					href: '6'
+				},
+			],
+		},
+	},
+	{
+		id: 3,
+		title: `Paczka Smaku - catering dietetyczny`,
+		category: 'Filmy promocyjne',
+		img: 'https://ik.imagekit.io/deptart/Paczka_Smaku_1.jpeg',
+		singleProjectHeader: {
+			singleProjectTitle: 'Paczka Smaku - realizacja filmów promujących catering dietetyczny',
+			singleProjectDate: '14 marca 2025',
+			singleProjectTag: 'Filmy promocyjne',
+		},
+		projectImages: [
+			{
+				id: 1,
+				title: 'Paczka Smaku',
+				img: 'https://ik.imagekit.io/deptart/Paczka_Smaku_2.jpeg',
+			},
+			{
+				id: 2,
+				title: 'Paczka Smaku',
+				img: 'https://ik.imagekit.io/deptart/Paczka_Smaku_1.jpeg',
+			},
+			{
+				id: 3,
+				title: 'Paczka Smaku',
+				img: 'https://ik.imagekit.io/deptart/Paczka_Smaku_3.jpeg',
+			},
+		],
+		projectInfo: {
+			clientHeading: 'O kliencie',
+			companyName: `Paczka Smaku`,
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Strona internetowa',
+					url: 'http://paczkasmaku.pl',
+				}
+			],
+			objectivesHeading: 'Cel',
+			objectivesDetails:
+				'Celem tego projektu było przygotowanie serii filmów promocyjnych, które w atrakcyjny sposób prezentowały ofertę firmy cateringowej, różnorodność diet oraz wartości związane ze zdrowym stylem życia.',
+			projectDetailsHeading: 'Szczegóły',
+			projectDetails: [
+				{
+					id: 1,
+					details:
+						'Projekt stanowił inspirującą realizację, której celem było ukazanie oferty firmy cateringowej w sposób apetyczny, nowoczesny i angażujący. Naszym zadaniem było stworzenie serii filmów promocyjnych, prezentujących różnorodne diety, świeżość składników oraz wartości, jakie marka niesie ze sobą każdego dnia.'
+				},
+				{
+					id: 2,
+					details:
+						'W trakcie produkcji skupiłem się na pokazaniu nie tylko samych potraw, ale również filozofii, jaka stoi za ich przygotowaniem - dbałości o jakość, smaku i zdrowie. Każdy kadr został zaplanowany tak, by oddać estetykę kuchni, rytm dnia osób korzystających z cateringu oraz energię, jaka towarzyszy wyborowi zdrowego stylu życia.'
+				},
+				{
+					id: 3,
+					details:
+						'Jednym z kluczowych elementów projektu było zaprezentowanie szerokiego wachlarza diet: od klasycznej, przez wegetariańską, aż po bardziej specjalistyczne warianty, dopasowane do indywidualnych potrzeb klientów. Ujęcia pełne kolorów, detali i ruchu pozwoliły uchwycić nie tylko smak, ale również emocje towarzyszące jedzeniu, które inspiruje do działania i troski o siebie.'
+				}
+			],
+			socialSharingsHeading: 'Podziel się tym projektem',
+			socialSharings: [
+				{
+					id: 1,
+					name: 'Instagram',
+					icon: 'instagram',
+					url: 'https://instagram.com/deptart.pl',
+				},
+				{
+					id: 2,
+					name: 'Youtube',
+					icon: 'youtube',
+					url: 'https://youtu.be/Ny4_rx2Ept8',
+				},
+			],
+			projectUrl: 'https://www.youtube.com/embed/Ny4_rx2Ept8'
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Inne projekty z tej kategorii',
+			relatedProjects: [
+				{
+					id: 1,
+					title: 'Cross',
+					img: 'https://ik.imagekit.io/deptart/Offroad_1.jpg',
+					href: '11'
+				},
+				{
+					id: 1,
+					title: 'Nassfeld',
+					img: 'https://ik.imagekit.io/deptart/Nassfeld_1.jpg',
+					href: '13'
+				},
+			],
+		},
+	},
+	{
+		id: 4,
 		title: `Współpraca z influencerami - Wietnam`,
 		category: 'Filmy promocyjne',
 		img: 'https://ik.imagekit.io/deptart/Wietnam_main.jpg',
@@ -85,19 +364,19 @@ const projects = [
 					id: 1,
 					title: 'Cross',
 					img: 'https://ik.imagekit.io/deptart/Offroad_1.jpg',
-					href: '8'
+					href: '11'
 				},
 				{
 					id: 1,
 					title: 'Nassfeld',
 					img: 'https://ik.imagekit.io/deptart/Nassfeld_1.jpg',
-					href: '10'
+					href: '13'
 				},
 			],
 		},
 	},
 	{
-		id: 2,
+		id: 5,
 		title: 'Księżycowa Metropolia',
 		category: 'Teledyski',
 		img: 'https://ik.imagekit.io/deptart/Ksiezycowa_3.jpg',
@@ -179,13 +458,19 @@ const projects = [
 					id: 1,
 					title: 'Grudniowy',
 					img: 'https://ik.imagekit.io/deptart/Grudniowy_2.jpg',
-					href: '3'
+					href: '6'
+				},
+				{
+					id: 2,
+					title: 'Słowa',
+					img: 'https://ik.imagekit.io/deptart/Slowa_1_main.jpg',
+					href: '2'
 				},
 			],
 		},
 	},
 	{
-		id: 3,
+		id: 6,
 		title: 'Grudniowy',
 		category: 'Teledyski',
 		img: 'https://ik.imagekit.io/deptart/Grudniowy_2.jpg',
@@ -266,13 +551,19 @@ const projects = [
 					id: 1,
 					title: 'Księżycowa Metropolia',
 					img: 'https://ik.imagekit.io/deptart/Ksiezycowa_3.jpg',
+					href: '5'
+				},
+				{
+					id: 2,
+					title: 'Słowa',
+					img: 'https://ik.imagekit.io/deptart/Slowa_1_main.jpg',
 					href: '2'
 				},
 			],
 		}
 	},
 	{
-		id: 4,
+		id: 7,
 		title: 'Sesja portretowa i lookbook',
 		category: 'Sesje plenerowe',
 		img: 'https://ik.imagekit.io/deptart/Plener_1.png',
@@ -339,7 +630,7 @@ const projects = [
 		}
 	},
 	{
-		id: 5,
+		id: 8,
 		title: 'Działka inwestycyjna w Rybniku',
 		category: 'Nieruchomości',
 		img: 'https://ik.imagekit.io/deptart/Rybnik_dzialka1.jpg',
@@ -420,19 +711,19 @@ const projects = [
 					id: 1,
 					title: 'Działka na sprzedaż',
 					img: 'https://ik.imagekit.io/deptart/Zory_dzialka1.jpg',
-					href: '6'
+					href: '9'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
 					img: 'https://ik.imagekit.io/deptart/Jastrzebie_dzialka1.jpg',
-					href: '7'
+					href: '10'
 				},
 			],
 		}
 	},
 	{
-		id: 6,
+		id: 9,
 		title: 'Działka budowlana w Żorach',
 		category: 'Nieruchomości',
 		img: 'https://ik.imagekit.io/deptart/Zory_dzialka1.jpg',
@@ -513,19 +804,19 @@ const projects = [
 					id: 1,
 					title: 'Działka na sprzedaż',
 					img: 'https://ik.imagekit.io/deptart/Rybnik_dzialka1.jpg',
-					href: '5'
+					href: '8'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
 					img: 'https://ik.imagekit.io/deptart/Jastrzebie_dzialka1.jpg',
-					href: '7'
+					href: '10'
 				},
 			],
 		}
 	},
 	{
-		id: 7,
+		id: 10,
 		title: 'Działka budowlana w Jastrzębiu',
 		category: 'Nieruchomości',
 		img: 'https://ik.imagekit.io/deptart/Jastrzebie_dzialka1.jpg',
@@ -606,19 +897,19 @@ const projects = [
 					id: 1,
 					title: 'Działka na sprzedaż',
 					img: 'https://ik.imagekit.io/deptart/Rybnik_dzialka1.jpg',
-					href: '5'
+					href: '8'
 				},
 				{
 					id: 2,
 					title: 'Działka na sprzedaż',
 					img: 'https://ik.imagekit.io/deptart/Zory_dzialka1.jpg',
-					href: '6'
+					href: '9'
 				},
 			],
 		}
 	},
 	{
-		id: 8,
+		id: 11,
 		title: `Cross'em przez pustynię`,
 		category: 'Filmy promocyjne',
 		img: 'https://ik.imagekit.io/deptart/Offroad_1.jpg',
@@ -690,19 +981,19 @@ const projects = [
 					id: 1,
 					title: 'Styria',
 					img: 'https://ik.imagekit.io/deptart/Styria_3.jpg',
-					href: '9'
+					href: '12'
 				},
 				{
 					id: 1,
 					title: 'Nassfeld',
 					img: 'https://ik.imagekit.io/deptart/Nassfeld_1.jpg',
-					href: '10'
+					href: '13'
 				},
 			],
 		},
 	},
 	{
-		id: 9,
+		id: 12,
 		title: `Styria`,
 		category: 'Filmy promocyjne',
 		img: 'https://ik.imagekit.io/deptart/Styria_3.jpg',
@@ -774,19 +1065,19 @@ const projects = [
 					id: 1,
 					title: 'Cross',
 					img: 'https://ik.imagekit.io/deptart/Offroad_1.jpg',
-					href: '8'
+					href: '11'
 				},
 				{
 					id: 1,
 					title: 'Nassfeld',
 					img: 'https://ik.imagekit.io/deptart/Nassfeld_1.jpg',
-					href: '10'
+					href: '13'
 				},
 			],
 		},
 	},
 	{
-		id: 10,
+		id: 13,
 		title: `Nassfeld`,
 		category: 'Filmy promocyjne',
 		img: 'https://ik.imagekit.io/deptart/Nassfeld_3.jpg',
@@ -858,13 +1149,13 @@ const projects = [
 					id: 1,
 					title: 'Cross',
 					img: 'https://ik.imagekit.io/deptart/Offroad_1.jpg',
-					href: '8'
+					href: '11'
 				},
 				{
 					id: 1,
 					title: 'Styria',
 					img: 'https://ik.imagekit.io/deptart/Styria_3.jpg',
-					href: '9'
+					href: '12'
 				},
 			],
 		},
